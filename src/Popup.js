@@ -165,7 +165,7 @@ export function Popcontent({
     notetagline = useRef(),
     notedetail = useRef(),
     noteid = useRef(),
-    notedate = useRef(),
+    notedate = useRef();
 
   const onKeyPressed = (event) => {
     if (event.keyCode == 13) {
