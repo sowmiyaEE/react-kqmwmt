@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api', // The path to proxy
     createProxyMiddleware({
-      target: 'https://ret.com',  
+      target: 'https://react-kqmwmt.vercel.app',  
       changeOrigin: true,
     })
   );
